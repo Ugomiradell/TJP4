@@ -146,7 +146,7 @@ a {
     margin-top: 10%;
 }
 
-.parentc4 {
+/* .parentc4 {
 
     display: flex;
     border: 2px solid #155EEF;
@@ -173,6 +173,41 @@ a {
     position: absolute;
     margin-left: 26%;
     margin-top: 9%;
+} */
+
+.parentc4 {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #155EEF;
+    padding: 10% 5% 2%;
+    margin-top: 3%;
+    /* margin: 0 2% 2%; */
+    position: relative;
+}
+
+.lefty3 {
+    position: absolute;
+    line-height: 105%;
+    left: 5%;
+    top: 5%;
+    background-color: #F9FBFF;
+    color: rgba(46, 58, 83, 1);
+    width: 50%;
+    font-family: 'manrope', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    padding: 2%;
+
+}
+.righty3 {
+    width: 50%;
+    margin-right: 3%;
+}
+.righty3 img {
+    width: 110%;  
 }
 
 .h2b {
