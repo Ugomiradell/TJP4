@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0 1;
-    box-sizing:
+
 }
 
 body {
@@ -60,9 +60,14 @@ a {
     border-radius: 8px;
     align-items: center;
     margin-top: 1%;
-    line-height: 150%;
+    /* line-height: 150%; */
     background-color: rgba(249, 251, 255, 1);
 
+}
+
+.p1 {
+    margin-top: 5%;
+    color: rgba(46, 58, 83, 1);
 }
 
 .h2a {
@@ -84,10 +89,8 @@ a {
 .p2 {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
-    letter-spacing: 0.5px;
+    font-size: 20px;
+    color: rgba(46, 58, 83, 1);
 }
 
 .button2 {
@@ -100,14 +103,15 @@ a {
     line-height: 300%;
     color: antiquewhite;
     letter-spacing: 2.5px;
+    margin-bottom: 5%;
     font-family: 'Manrope', sans-serif;
 }
 
 .righty1 {
     display: flex;
-    box-sizing: border-box;
-    width: 45%;
-    margin-right: 5%;
+    width: 110%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 .righty1 img {
