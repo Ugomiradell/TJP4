@@ -272,6 +272,7 @@ footer {
 
     .img1 {
         width: 60%;
+        margin-left: 0%
     }
 
     .img1 img {
@@ -298,8 +299,8 @@ footer {
         margin-right: 3%;
     }
     .h2a {
-        margin-left: 40%;
-        font-size: medium;
+        margin-left: 45%;
+        font-size: small;
         margin-top: none;
         line-height: 100%;
     }
@@ -319,7 +320,7 @@ footer {
         margin-top: 5%;
         font-weight: 550;
         font-size: x-small;
-        margin-left: 22%;
+        margin-left: 25%;
     }
 
     .links {
@@ -380,6 +381,30 @@ footer {
     .button2 {
         width: 95%;
         margin-right: 10%;
+    }
+
+
+}
+
+@media screen and (max-width: 385px) {
+    .h1 {
+        font-size: x-small;
+    }
+
+    .p2 {
+        font-size: x-small;
+    }
+
+    .p3 {
+        font-size: xx-small;
+    }
+
+    .p5 {
+        margin-left: 15%;
+    }
+
+    .h2a {
+        font-size: x-small;
     }
 
 
