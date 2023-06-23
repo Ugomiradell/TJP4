@@ -386,7 +386,7 @@ footer {
 
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 417px) {
     .h1 {
         font-size: x-small;
     }
@@ -407,5 +407,5 @@ footer {
         font-size: x-small;
     }
 
-
-}
+    
+} 
