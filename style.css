@@ -40,7 +40,7 @@ header {
     align-items: center;
     border: 2px solid #155EEF;
     border-radius: 8px;
-    position: relative;
+    /* position: relative; */
 }
 
 a {
@@ -170,18 +170,16 @@ a {
 
 .lefty3 {
     position: absolute;
-    line-height: 110%;
     left: 5%;
+    margin-bottom: 15%;
     top: 5%;
     background-color: #F9FBFF;
     color: rgba(46, 58, 83, 1);
     width: 50%;
-    z-index: 5;
     font-family: 'manrope', sans-serif;
     font-style: normal;
-    font-size: 19px;
+    font-size: 17px;
     padding: 2%;
-
 }
 
 .righty3 {
@@ -217,9 +215,8 @@ a {
     align-items: flex-start;
     font-family: 'Manrope', sans-serif;
     font-style: normal;
-    font-size: 130%;
-    letter-spacing: 4%;
-    line-height: 100%;
+    font-size: 120%;
+    line-height: 110%;
     color: #041330;
     margin-right: 2%;
 }
@@ -296,12 +293,23 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
+        gap: 30px;
         width: 100%;
         padding-top: 5%;
-        height: 100vh;
-        background-color: rgba(249, 251, 255, 1);
+        height: 200vh;
+        font-weight: 800;
+        font-family: 'Halant', serif;
+        background-color: rgba(249, 251, 255, 1); 
+        
+    }
 
+    .dropdown-items a {
+        margin-top: 15%;
+    }
+    .lines {
+        width: 200px;
+        height: 1px;
+        background-color: black;
     }
     
     .close {
@@ -397,7 +405,7 @@ footer {
 
     .lefty3 {
         width: 100%;
-        position: relative;
+        position: static;
         margin-right: 50%;
     }
 
