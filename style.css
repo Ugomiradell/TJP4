@@ -273,9 +273,9 @@ footer {
 
 @media screen and (max-width: 500px) {
 
-    /* body {
+    body {
         max-width: fit-content;
-    } */
+    }
 
     .img1 {
         width: 60%;
@@ -316,6 +316,7 @@ footer {
         font-family: 'Halant', serif;
         background-color: rgba(249, 251, 255, 1);
         position: fixed;
+        max-width: fit-content;
         width: 100%; 
         top: 0.0%;
     }
