@@ -274,6 +274,7 @@ footer {
 @media screen and (max-width: 500px) {
 
     body {
+        max-width: fit-content;
         width: 100%;
     }
 
